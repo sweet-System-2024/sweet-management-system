@@ -33,8 +33,9 @@
     <scope>test</scope>
   </dependency>
 </dependencies>
-</project>
 <properties>
   <sonar.organization>sweet-system-2024</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
+
+</project>
