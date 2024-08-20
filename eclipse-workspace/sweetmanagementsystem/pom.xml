@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=sweet-System-2024_sweet-management-system
+
   <modelVersion>4.0.0</modelVersion>
   <groupId>sweet.system</groupId>
   <artifactId>sweetmanagementsystem</artifactId>
