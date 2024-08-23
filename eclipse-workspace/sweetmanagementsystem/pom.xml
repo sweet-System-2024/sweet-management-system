@@ -4,10 +4,14 @@
   <groupId>sweet.system</groupId>
   <artifactId>sweetmanagementsystem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<build>
+  <plugin>
+
+<plugins>
 
   <groupId>org.jacoco</groupId>
 <artifactId>jacoco-maven-plugin</artifactId>
-I
+
 
 <executions>
 
