@@ -5,18 +5,11 @@
   <artifactId>sweetmanagementsystem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-
-
-
-
 <build>
 <plugins>
-
 <plugin>
-
 <groupId>org.jacoco</groupId>
 <artifactId>jacoco-maven-plugin</artifactId>
-
 <executions>
 < !-- Prepares the property pointing to the JacoCo runtime agent
 which is passed as VM argument when Maven the Surefire plugin is executed. -- >
@@ -36,7 +29,6 @@ all tests have been run. -- >
 </execution>
 </executions>
 </plugin>
-
 </plugins>
 </build>
 
