@@ -10,31 +10,35 @@
 
 
 <build>
-    <plugins>
+<plugins>
 
-    <plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.7</version>
-        <executions>
-            <execution>
-                <goals>
-                    <goal>prepare-agent</goal>
-                </goals>
-            </execution>
-            <execution>
-                <id>report</id>
-                <phase>test</phase>
-                <goals>
-                    <goal>report</goal>
-                </goals>
-            </execution>
-        </executions>
+<plugin>
 
-    </plugin>
-    </plugins>
-    </build>
+<groupId>org.jacoco</groupId>
+<artifactId>jacoco-maven-plugin</artifactId>
 
+<executions>
+< !-- Prepares the property pointing to the JacoCo runtime agent
+which is passed as VM argument when Maven the Surefire plugin is executed. -- >
+<execution>
+<goals>
+<goal>prepare-agent</goal>
+</goals>
+</execution>
+< !--  Ensures that the code coverage report is created after
+all tests have been run. -- >
+<execution>
+<id>generate-report</id>
+<phase>verify</phase>
+<goals>
+<goal>report</goal>
+</goals>
+</execution>
+</executions>
+</plugin>
+
+</plugins>
+</build>
 
 
  <dependencies>
