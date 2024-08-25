@@ -6,7 +6,7 @@
   <groupId>sweet.system</groupId>
   <artifactId>sweetmanagementsystem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
->
+
     <dependencies>
 
         <dependency>
