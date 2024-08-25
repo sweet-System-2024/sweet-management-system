@@ -40,6 +40,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=sweet-System-2024_sweet-management-system
 
-run-name: /home/runner/work/sweet-management-system/sweet-management-system
+
 
  
